@@ -32,13 +32,15 @@ function rollDice(){
 
     fourOrMoreCount = fourOrMore.length;
 
+    var over = fourOrMoreCount - difficulty;
+
     if (fourOrMoreCount>=difficulty) {
-        finalResult.textContent = `Success`
-        finalResult.style.color = "Green"
+        finalResult.textContent = `Success: ${over} over`;
+        finalResult.style.color = "Green";
     }
     else {
-        finalResult.textContent = "Fail"
-        finalResult.style.color = "Red"
+        finalResult.textContent = `Fail`;
+        finalResult.style.color = "Red";
     }
 
 }

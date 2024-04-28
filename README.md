@@ -15,3 +15,21 @@ Before God, I swear this creed. My dice roller and I are the defenders of my cam
 So be it, until victory is ours and there are no more BBEGs, but peace!
 
 ----------------------------------------------------------------------------------------------------------------------------
+
+d6-dice-pool-roller is made for my ttrpg. It uses a simple d6 dice pool system.
+You gather a bunch of d6 die (depending on your character's skill), the GM states the difficulty, and the player rolls. Every d6 that has 1-3 counts as a fail, and every d6 that has 4-6 counts as a pass. If you have equal or more passes than difficulty, your task is a success.
+
+My friends always struggle to understand the rules of dice pool systems because they are low IQ d20 nerds, so I made this dice roller to ease their pain.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Since this is my first JS project, I have no idea what I'm doing. I just followed the [Bro Code's - Build this JavaScript Dice Roller program](https://www.youtube.com/watch?v=PXilNmL9U80) and expanded basic functionality to suit my needs.
+
+There's one mega method in index.js called rollDice() in which I made the whole functionality of the roller. It looks bad, but it's functional - no hate pls.
+index.html has a structure, and style.css has - style. You know, all basic stuff.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+To start the roller on your local machine, open the project in VS Code, get the Live Server extension if you don't have it, right-click on the index.html, and click on the 'Open with Live Server'. The dice roller will open in your default browser.
+
+I have no idea how to start it from any other code editor. Sorry.
